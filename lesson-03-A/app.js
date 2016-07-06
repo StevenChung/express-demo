@@ -15,3 +15,13 @@ app.listen(port);
 
 console.log('server started on port %s', port);
 
+/*
+use() is middleware
+listening on all routes on all request/response pipelines
+do content negotation etc.
+
+all requests route to helloworld because the middleware listens
+to all
+
+premise of middleware to daisychain a bunch together
+*/

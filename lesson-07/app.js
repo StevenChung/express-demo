@@ -15,3 +15,4 @@ app.get('/hello', function(req, res) {
 
 app.listen(port);
 
+// three routes is all!

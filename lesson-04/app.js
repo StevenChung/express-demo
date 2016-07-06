@@ -13,3 +13,7 @@ app.listen(port);
 
 console.log('server started on port %s', port);
 
+/*
+You don't normally handle requests via middleware as it was in 3C.
+Still have stuff handled via get/post/set etc.
+*/

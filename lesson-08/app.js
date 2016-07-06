@@ -28,3 +28,4 @@ app.get('/hello6', function(req, res) {
 });
 
 app.listen(port);
+// example of explicit types etc.

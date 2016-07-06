@@ -35,3 +35,12 @@ app.listen(port);
 
 console.log('server started on port %s', port);
 
+/*
+Use of Morgan again here
+can't you use .use with a path?
+http://expressjs.com/en/guide/using-middleware.html
+why does he req.url?
+
+
+if in test mode, also send req.headers
+*/

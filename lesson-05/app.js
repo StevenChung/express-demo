@@ -21,3 +21,5 @@ var server = app.listen(port, function() {
 
 
 
+// only difference is the callback occurs when the listening actually happens
+// in lesson 4, it gets invoked at the end

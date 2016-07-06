@@ -31,3 +31,19 @@ app.listen(3000, 'localhost');
 
 console.log('server app running at localhost:3000');
 
+/*
+core node again only
+
+listener is now just anonymously passed into createServer
+
+look at all the boilerplate crust!
+based on certain patterns and based on server response
+what if not found?
+what if found, but server error?
+what if found and served?
+
+all this work for somewhat basic still
+check out the readme!
+
+
+*/

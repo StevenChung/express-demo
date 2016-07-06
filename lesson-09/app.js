@@ -6,7 +6,6 @@ var app = require('express')(),
     users = [
       { id: 1, name: 'tony' }
     ];
-
 app.use(morgan('dev'));
 
 app.use(bodyParser.json());
@@ -77,7 +76,9 @@ app.put('/users/:name', function(req, res) {
 
 app.delete('/users/:name', function(req, res) {
   var name = req.params.name;
-
+  // we have access to query parameters!
+  // route parameters too!
+  // and body parameters
   var user = _.find(users, function(u) {
     return u.name == name;
   });
@@ -98,3 +99,19 @@ app.delete('/users/:name', function(req, res) {
 app.listen(port);
 
 
+
+
+/*
+body.parser() allows us to
+POST data to actually post request body
+no more request.on('data', ...) // request.on('end', ...)
+expect to post json
+
+you did this in the assessment!
+
+
+// we have access to query parameters!
+// route parameters too!
+// and body parameters
+
+*/

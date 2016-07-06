@@ -11,3 +11,17 @@ app.listen(3000, 'localhost');
 
 console.log('server app running at localhost:3000');
 
+/*
+core node (http)
+no need to npm anything!
+listener function (onListenEvent);
+
+http.createServer() with listener
+
+listen on 3000 at localhost
+
+execute code in the listener with the req,res object
+
+core part of node callback as well
+
+*/
